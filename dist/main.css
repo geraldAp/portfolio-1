@@ -214,7 +214,7 @@ img {
       font-size: 4rem;
       line-height: 1.2; }
 #header-inner {
-  background: url("../dist/img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
 
