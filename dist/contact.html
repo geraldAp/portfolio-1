@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&family=Lato:wght@100;400&family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/307f53d172.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="/css-scss/main.css" />
+    <title>Contact Me| UI/UX Designer and Business Man</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/logo.png" alt="My Portfolio" id="logo" />
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Section A: Contact form -->
+
+      <section id="contact-a" class="text-center py-3">
+        <div class="container">
+          <div class="section-title">Contact Me</div>
+          <div class="bottom-line"></div>
+          <p class="lead">Hear is how you can reach me</p>
+          <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <div class="text-field">
+              <input
+                type="text"
+                class="text-input name-input"
+                placeholder="Name"
+                name="name"
+              />
+              <input
+                type="text"
+                class="text-input subject-input"
+                placeholder="Subject"
+                name="subject"
+              />
+              <input
+                type="email"
+                class="text-input email-input"
+                placeholder="Email Address"
+                name="email"
+              />
+              <input
+                type="text"
+                class="text-input phone-input"
+                placeholder="Phone Number"
+                name="phone"
+              />
+              <textarea
+                class="text-input message-input"
+                placeholder="Enter Message"
+                name="message"
+              ></textarea>
+              <div class="my-2">
+                <div data-netlify-recaptcha="true"></div>
+              </div>
+            </div>
+            <button type="submit" class="btn-dark">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Section B: Contact info  -->
+      <section id="contact-b" class="py-3 bg-dark">
+        <div class="container">
+          <div class="contact-info">
+            <div>
+              <i class="fa-solid fa-envelope fa-2x"></i>
+              <h3>Email</h3>
+              <p>justinwahala16@gmail.com</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-phone fa-2x"></i>
+              <h3>Phone</h3>
+              <p>+233-(546) 399 150</p>
+            </div>
+            <div>
+              <i class="fa-solid fa-address-card fa-2x"></i>
+              <h3>Address</h3>
+              <p>d1/1 baya alaya street</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Section C : Tagline  -->
+    <section id="contact-c" class="bg-main py-4">
+      <div class="container">
+        <h1>Let me give you the best user experience with your projects</h1>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2022. All Rights Reserved</p>
+        <div class="social">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
